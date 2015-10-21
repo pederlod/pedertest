@@ -1,0 +1,155 @@
+nav, header, section, aside, footer{
+	display: block;
+
+}
+
+body, h1, h2, h3, h4, ul, li, a, p, article, aside, footer, header, main, nav, section{
+	padding: 0;
+	margin: 0;
+
+}
+
+img.fit{
+	
+	width: 100px;
+}
+
+
+body{
+	margin:0 auto;
+	width: 960px;
+	background: url("blue1.jpg") ;
+}
+
+/* Oblig 2 tags*/
+img.wireframe{
+
+	width: 49.5%;
+}
+
+/*Klasser til oppg 2*/
+
+.bold{
+	font-weight: bold;
+}
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+.stroket{
+	text-decoration: line-through;
+}
+
+/*IDer til oppg3*/
+
+#eks1{
+	width:50px;
+	height:100px;
+	border-color:red;
+	border-style: dashed;
+	border-width:5px;
+	background-color:gray;
+	
+}
+#eks2{
+	width:300px;
+	height:20px;
+	border-color:yellow;
+	border-style:dotted;
+	border-width:20px;
+	margin-left:200px;
+	background-color:orange;
+	
+}
+#eks3{
+	width:75px;
+	height:75px;
+	border-color:green;
+	border-bottom-color:pink;
+	border-style:solid;
+	border-width:10px;
+	margin:30px;
+	background-color:white;
+	
+}
+
+#eks4{
+	width:25%;
+	height:2cm;
+	border-color:black;
+	border-style:solid;
+	background-color:gray;
+	float: right;
+
+	
+}
+#eks5{
+	width: auto;
+	height:75px;
+	border-color:black;
+	border-style:solid;
+	background-color:gray;
+	margin: 100px;
+}
+
+.overskrift{
+	background-color: #1A1A1A;
+	font-family: Arial Black;
+	color: #F5E49A;
+	padding: 15px;
+	padding-left: 50px;
+	
+}
+
+.bold2{
+	font-weight: bold ;
+	margin-top: 15px;
+}
+/* body etc*/
+main{
+	float: left;
+}
+
+header p{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+main section{
+	margin-top: 10px;
+	width: 960px;
+	padding: 3px;
+	background-color: #525252;
+	margin-bottom: 5px;
+}
+
+main section h2{
+	padding-left: 20px;
+	color: #F5E49A;
+}
+
+article{
+	margin-top: 3px;
+	background-color: #F5E49A;
+	padding: 5px;
+}
+
+article ul{
+	list-style: none;
+}
+
+article ul li{
+	margin:3px;
+	margin-left: 30px;
+}
+
+
+footer{
+	clear:both;
+	background-color:#525252;
+	color: white;
+	padding: 5px;
+}
+
